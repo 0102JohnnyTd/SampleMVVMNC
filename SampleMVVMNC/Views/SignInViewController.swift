@@ -9,12 +9,15 @@ import UIKit
 
 final class SignInViewController: UIViewController {
     @IBOutlet private weak var idTextField: UITextField!
-
     @IBOutlet private weak var passwordTextField: UITextField!
+
+    // インスタンスを生成
+    private let notificationCenter = NotificationCenter()
+    private lazy var signInViewModel = SignInViewMdodel(notificationCenter: notificationCenter)
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
     }
+
+    
 }
