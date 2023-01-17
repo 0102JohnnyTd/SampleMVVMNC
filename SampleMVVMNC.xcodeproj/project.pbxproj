@@ -16,6 +16,7 @@
 		1CF2CD792976420700527A9C /* SignInModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF2CD782976420700527A9C /* SignInModel.swift */; };
 		1CF2CD7D29766D0B00527A9C /* SignInViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF2CD7C29766D0B00527A9C /* SignInViewModel.swift */; };
 		1CF2CD7F2976786C00527A9C /* SignIn.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CF2CD7E2976786C00527A9C /* SignIn.storyboard */; };
+		1CF2CD8129767A1900527A9C /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF2CD8029767A1900527A9C /* SignInViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		1CF2CD782976420700527A9C /* SignInModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInModel.swift; sourceTree = "<group>"; };
 		1CF2CD7C29766D0B00527A9C /* SignInViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewModel.swift; sourceTree = "<group>"; };
 		1CF2CD7E2976786C00527A9C /* SignIn.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SignIn.storyboard; sourceTree = "<group>"; };
+		1CF2CD8029767A1900527A9C /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,7 +68,7 @@
 				1CF2CD6529763F6000527A9C /* SceneDelegate.swift */,
 				1CF2CD7B29766CD100527A9C /* ViewModels */,
 				1CF2CD77297641F600527A9C /* Models */,
-				1CF2CD7E2976786C00527A9C /* SignIn.storyboard */,
+				1CF2CD8229767A2300527A9C /* Views */,
 				1CF2CD6729763F6000527A9C /* ViewController.swift */,
 				1CF2CD6929763F6000527A9C /* Main.storyboard */,
 				1CF2CD6C29763F6300527A9C /* Assets.xcassets */,
@@ -90,6 +92,15 @@
 				1CF2CD7C29766D0B00527A9C /* SignInViewModel.swift */,
 			);
 			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		1CF2CD8229767A2300527A9C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1CF2CD8029767A1900527A9C /* SignInViewController.swift */,
+				1CF2CD7E2976786C00527A9C /* SignIn.storyboard */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -166,6 +177,7 @@
 			files = (
 				1CF2CD6829763F6000527A9C /* ViewController.swift in Sources */,
 				1CF2CD792976420700527A9C /* SignInModel.swift in Sources */,
+				1CF2CD8129767A1900527A9C /* SignInViewController.swift in Sources */,
 				1CF2CD6429763F6000527A9C /* AppDelegate.swift in Sources */,
 				1CF2CD6629763F6000527A9C /* SceneDelegate.swift in Sources */,
 				1CF2CD7D29766D0B00527A9C /* SignInViewModel.swift in Sources */,
