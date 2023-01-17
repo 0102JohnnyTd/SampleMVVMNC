@@ -18,8 +18,23 @@ final class SignInViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         setUpNotificationCenter()
+        setUpTextFiled()
     }
 
+    // TextFieldの値が変更される度にViewからViewModelへ通知がかかる処理を定義
+    private func setUpTextFiled() {
+        idTextField.addTarget(
+            self,
+            action: #selector(textDidChange),
+            for: .editingChanged
+        )
+
+        passwordTextField.addTarget(
+            self,
+            action: #selector(textDidChange),
+            for: .editingChanged
+        )
+    }
 
     // ViewをViewModelが監視している状態に設定
     private func setUpNotificationCenter() {
@@ -41,13 +56,19 @@ final class SignInViewController: UIViewController {
 
 
 extension SignInViewController {
+    // ViewModelからpostによって通知が届いた際に実行される
     @objc func updateLabelText(notification: Notification) {
         guard let validateText = notification.object as? String else { return }
         validationLabel.text = validateText
     }
-
+    // ViewModelからpostによって通知が届いた際に実行される
     @objc func updateLabelColor(notification: Notification) {
         guard let newTextColor = notification.object as? UIColor else { return }
         validationLabel.textColor = newTextColor
+    }
+
+    // textFieldの値が変更される度に実行される
+    @objc func textDidChange() {
+        signInViewModel.textChanged(idText: idTextField.text, passwordText: passwordTextField.text)
     }
 }
