@@ -10,8 +10,8 @@ import UIKit
 
 final class SignInViewMdodel {
     // 監視元のViewのKeyとなるNotificationNameの定義
-    private let changeText = Notification.Name("changeText")
-    private let changeColor = Notification.Name("changeColor")
+    let changeText = Notification.Name("changeText")
+    let changeColor = Notification.Name("changeColor")
 
     private var notificationCenter: NotificationCenter
     private let signInModel: SignInModelDelegate

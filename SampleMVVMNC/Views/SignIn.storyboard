@@ -72,6 +72,7 @@
                     <connections>
                         <outlet property="idTextField" destination="Hgh-pz-ClH" id="DNX-M5-EQd"/>
                         <outlet property="passwordTextField" destination="dqG-X1-qwJ" id="vhb-aN-hCx"/>
+                        <outlet property="validationLabel" destination="Yhh-iY-zBa" id="abY-oH-xSs"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
