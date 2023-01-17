@@ -15,6 +15,7 @@
 		1CF2CD7029763F6300527A9C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CF2CD6E29763F6300527A9C /* LaunchScreen.storyboard */; };
 		1CF2CD792976420700527A9C /* SignInModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF2CD782976420700527A9C /* SignInModel.swift */; };
 		1CF2CD7D29766D0B00527A9C /* SignInViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF2CD7C29766D0B00527A9C /* SignInViewModel.swift */; };
+		1CF2CD7F2976786C00527A9C /* SignIn.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CF2CD7E2976786C00527A9C /* SignIn.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		1CF2CD7129763F6300527A9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1CF2CD782976420700527A9C /* SignInModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInModel.swift; sourceTree = "<group>"; };
 		1CF2CD7C29766D0B00527A9C /* SignInViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewModel.swift; sourceTree = "<group>"; };
+		1CF2CD7E2976786C00527A9C /* SignIn.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SignIn.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				1CF2CD6529763F6000527A9C /* SceneDelegate.swift */,
 				1CF2CD7B29766CD100527A9C /* ViewModels */,
 				1CF2CD77297641F600527A9C /* Models */,
+				1CF2CD7E2976786C00527A9C /* SignIn.storyboard */,
 				1CF2CD6729763F6000527A9C /* ViewController.swift */,
 				1CF2CD6929763F6000527A9C /* Main.storyboard */,
 				1CF2CD6C29763F6300527A9C /* Assets.xcassets */,
@@ -147,6 +150,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CF2CD7F2976786C00527A9C /* SignIn.storyboard in Resources */,
 				1CF2CD7029763F6300527A9C /* LaunchScreen.storyboard in Resources */,
 				1CF2CD6D29763F6300527A9C /* Assets.xcassets in Resources */,
 				1CF2CD6B29763F6000527A9C /* Main.storyboard in Resources */,
